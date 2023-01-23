@@ -1,0 +1,48 @@
+{
+"workers" : [
+  {
+    "userId": "2ac50572-9aff-11ed-a8fc-0242ac120002",
+    "jobTitleName": "Developer",
+    "firstName": "Romin",
+    "lastName": "Irani",
+    "preferredFullName": "Romin Irani",
+    "employeeCode": "E1",
+    "city": "Tel Aviv",
+    "phoneNumber": "0524081234",
+    "emailAddress": "romin.k.irani@gmail.com"
+  },
+  {
+    "userId": "23ef1d34-4cdb-47c7-81e2-175a8c83b433",
+    "jobTitleName": "Developer",
+    "firstName": "Neil",
+    "lastName": "Irani",
+    "preferredFullName": "Neil Irani",
+    "employeeCode": "E2",
+    "city": "Jerusalem",
+    "phoneNumber": "0501111111",
+    "emailAddress": "neilrirani@gmail.com"
+  },
+  {
+    "userId": "adc468da-a580-4cc7-8516-8f24ef7db0ca",
+    "jobTitleName": "Program Directory",
+    "firstName": "Tom",
+    "lastName": "Hanks",
+    "preferredFullName": "Tom Hanks",
+    "employeeCode": "E3",
+    "city": "Yavne",
+    "phoneNumber": "0542222222",
+    "emailAddress": "tomhanks@gmail.com"
+  },
+  {
+    "userId": "e3d6a9a6-d63f-4700-bc11-45340319d25f",
+    "jobTitleName": "H&R Manager",
+    "firstName": "Benjamin",
+    "lastName": "Netaniayhu",
+    "preferredFullName": "Benjamin Netaniayhu",
+    "employeeCode": "E4",
+    "city": "Jerusalem",
+    "phoneNumber": "0542222222",
+    "emailAddress": "benjaminnetaniayhu@gmail.com"
+  }
+]
+}
