@@ -10,9 +10,10 @@ function updateTable() {
     for(i=0; i < tr.length; i++) {
         tdId = tr[i].getElementsByTagName("td")[0];
         tdName = tr[i].getElementsByTagName("td")[2];
-        if(tdName || tdId){
-            textValue = tdId.textContent || tdId.innerText || tdName.textContent || tdName.innerText;
-            if(textValue.toLowerCase().indexOf(filter) > -1) {
+        if(tdId || tdName){
+            textValueId = tdId.textContent || tdId.innerText;
+            textValueName = tdName.textContent || tdName.innerText;
+            if(textValueId.toLowerCase().indexOf(filter) > -1 || textValueName.toLowerCase().indexOf(filter) > -1) {
                 tr[i].style.display = "";
             }
             else {
