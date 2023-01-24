@@ -1,0 +1,51 @@
+
+table, th, td {
+  border: 1px solid;
+  border-color: blue;
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    text-decoration-line: overline underline;
+    text-decoration-color: blue;
+    color: blue
+}
+
+th {
+  background-color: #007cb9;
+  color: white;
+}
+tr:hover {
+    background-color: #007cb9;
+    color: white;
+}
+
+#searchBarInput{
+	margin-left: 15%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding:15px;
+	border-radius: 10px;
+	border-color: blue;
+}
+
+input[type=text] {
+	width: 12%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 20%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
+
+.animals{
+display: list-item;
+}

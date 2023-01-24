@@ -12,7 +12,7 @@ def read_json_file():
 
 
 def gen_html_table(data):
-    tbl = "<table>"
+    tbl = """<table class="table" id="workersTable" data-filter-control="true">"""
     if len(data["workers"]) > 0:
         tbl += "<tr>"
         for headers in data["workers"][0]:
@@ -30,11 +30,17 @@ def create_html_page():
     tbl = gen_html_table(read_json_file())
     html_content = f"""<html>
                             <head>
-                            <link rel=stylesheet href='./table_style.css'>
+                            <link rel=stylesheet href='./style.css'>
                                 <title>Shelly's Assignment</title>
-                                
                             </head>
-                            <body><input id="SearchBar" type="text" onInput="updateTable()" />{tbl}</body>
+                            <body>
+                                <h2>Technoso's Workers</h2>
+                                <div class="container">
+                                <input src="./search_bar.js" type="text" id="searchBarInput" onkeyup='updateTable()' placeholder="Search for worker's name or ID">
+                                <script src='./search_bar.js'></script>
+                                {tbl}
+                                </div>
+                            </body>
                         </html>"""
 
     with open("./html_page.html", "w+") as f:
